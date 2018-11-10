@@ -1,0 +1,39 @@
+# Basic
+title: zard777
+ 
+description: Security researcher 
+avatarTitle: Nope
+avatarDesc: Nope
+url: "https://zard777.github.io"
+
+# Comment
+comment:
+    disqus: zard777
+
+# Social
+social:
+    github: zard777
+    twitter: zard777
+    
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: Archive, description: archive, url: '/archive'}
+    - {title: Tags, description: tags, url: '/tags'}
+    - {title: About, description: about, url: '/about'}
+    - {title: TODO, description: todo, url: '/TODO'}
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 10
+paginate_path: "page/:num/"
